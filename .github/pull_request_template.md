@@ -24,7 +24,7 @@ fix size: <img src="" width=30% height=30%>
 
 ### Video
 
-[If feature, please attach the video to descript this feature.]
+[If feature, please attach the video to describe this feature.]
 
 ## II. Related Issues
 
@@ -59,4 +59,4 @@ fix size: <img src="" width=30% height=30%>
 
 [Add any additional comments or notes regarding the changes made in this pull request.]
 
-> Merge first or other
+> Example: Merge first
