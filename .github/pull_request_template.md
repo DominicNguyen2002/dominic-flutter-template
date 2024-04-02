@@ -20,7 +20,7 @@
 
 [If UI, please attach the image to show this UI.]
 
-fix size: <img src="" width=30% height=30%>
+<img src="" width=30% height=30%>
 
 ### Video
 

@@ -40,7 +40,7 @@ Base project made with much: Contains Bloc, Route, and much more!
 3. Now run the generator
 
     ```bash
-    flutter packages pub run build_runner build
+    dart run build_runner build
     ```
 
 4. To run staging project
