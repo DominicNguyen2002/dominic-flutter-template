@@ -33,3 +33,13 @@ flutter:
     - assets/images/locale/
     # - assets/lotties/
     # - assets/svgs/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/open_sans/OpenSans.otf
+    - family: OpenSans-Italic
+      fonts:
+        - asset: assets/fonts/open_sans/OpenSans-Italic.otf
+    - family: OpenSans-Bold
+      fonts:
+        - asset: assets/fonts/open_sans/static/OpenSans-Bold.otf

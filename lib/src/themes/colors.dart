@@ -5,8 +5,10 @@ class AppColors {
 
   // primary
   static const primary = Color(0xfff4ca27);
-  static const text = Color(0xFF404040);
-  static const scaffoldBackgroundColor = Color(0xFFF8F6EE);
+  static const textLight = Color(0xff404040);
+  static const textDark = Color.fromARGB(255, 255, 255, 255);
+  static const scaffoldBackgroundColorLight = Color(0xfff8f6ee);
+  static const scaffoldBackgroundColorDark = Color(0xff282a36);
   
   // custom
   static const transparent = Colors.transparent;
