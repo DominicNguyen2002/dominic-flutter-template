@@ -15,6 +15,10 @@ dependencies:
   cupertino_icons: ^1.0.6
   # HELPER
   intl: 0.18.1
+  # STATE MANAGEMENT
+  flutter_bloc: ^8.1.5
+  get_it: ^7.4.8
+  go_router: ^13.2.3
 
 dev_dependencies:
   flutter_test:
@@ -41,10 +45,10 @@ flutter:
   fonts:
     - family: OpenSans
       fonts:
-        - asset: assets/fonts/open_sans/OpenSans.otf
+        - asset: assets/fonts/open_sans/OpenSans.ttf
     - family: OpenSans-Italic
       fonts:
-        - asset: assets/fonts/open_sans/OpenSans-Italic.otf
+        - asset: assets/fonts/open_sans/OpenSans-Italic.ttf
     - family: OpenSans-Bold
       fonts:
-        - asset: assets/fonts/open_sans/static/OpenSans-Bold.otf
+        - asset: assets/fonts/open_sans/static/OpenSans-Bold.ttf
