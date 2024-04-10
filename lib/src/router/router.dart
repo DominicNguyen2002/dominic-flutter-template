@@ -9,13 +9,14 @@ import 'package:dominic_flutter_template/src/features/product_detail/view/produc
 import 'package:dominic_flutter_template/src/features/profile/view/profile_view.dart';
 import 'package:dominic_flutter_template/src/router/coordinator.dart';
 import 'package:dominic_flutter_template/src/router/router_name.dart';
+import 'package:dominic_flutter_template/src/features/settings/view/settings_view.dart';
 import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
 
 class AppRouter {
   final router = GoRouter(
     navigatorKey: AppCoordinator.navigatorKey,
-    initialLocation: AppRouteNames.signIn.path,
+    initialLocation: AppRouteNames.settings.path,
     debugLogDiagnostics: kDebugMode,
     routes: <RouteBase>[
       GoRoute(
@@ -23,20 +24,24 @@ class AppRouter {
         path: AppRouteNames.signIn.path,
         name: AppRouteNames.signIn.name,
         builder: (_, __) => const SignInView(),
-        routes: <RouteBase>[
-          GoRoute(
-            parentNavigatorKey: AppCoordinator.navigatorKey,
-            path: AppRouteNames.signUp.subPath,
-            name: AppRouteNames.signUp.name,
-            builder: (_, __) => const SignInView(),
-          ),
-          GoRoute(
-            parentNavigatorKey: AppCoordinator.navigatorKey,
-            path: AppRouteNames.forgotPassword.subPath,
-            name: AppRouteNames.forgotPassword.name,
-            builder: (_, __) => const ForgotView(),
-          ),
-        ],
+      ),
+      GoRoute(
+        parentNavigatorKey: AppCoordinator.navigatorKey,
+        path: AppRouteNames.signUp.path,
+        name: AppRouteNames.signUp.name,
+        builder: (_, __) => const SignInView(),
+      ),
+      GoRoute(
+        parentNavigatorKey: AppCoordinator.navigatorKey,
+        path: AppRouteNames.forgotPassword.path,
+        name: AppRouteNames.forgotPassword.name,
+        builder: (_, __) => const ForgotView(),
+      ),
+      GoRoute(
+        parentNavigatorKey: AppCoordinator.navigatorKey,
+        path: AppRouteNames.settings.path,
+        name: AppRouteNames.settings.name,
+        builder: (_, __) => const SettingsView(),
       ),
       ShellRoute(
         navigatorKey: AppCoordinator.shellKey,

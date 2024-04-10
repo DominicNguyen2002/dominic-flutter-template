@@ -24,24 +24,24 @@
     "common_gallery_request_content": "We need your gallery to upload your profile avatar or create photo message, Do you want to grant permission?",
     "common_camera_request_title": "Camera Permission was denied",
     "common_camera_request_content": "We need your camera to upload your profile avatar or create photo message, Do you want to grant permission?",
-    
     "camera_choose_option_take_image": "Please choose option to take image",
     "camera_choose_option_take_video": "Please choose option to take video",
     "camera_image_from_camera": "Image from camera",
     "camera_video_from_camera": "Video from camera",
     "camera_image_from_gallery": "Image from gallery",
     "camera_video_from_gallery": "Video from gallery",
-    
     "error_noInternet": "A Server Error Occurred",
     "error_unknown": "An Unknown Error Occurred",
     "error_somethingWrongTryAgain": "Something went wrong, try again...",
     "error_fieldRequired": "This field is required",
     "error_not_login_yet": "Not Login yet!",
     "error_upload_file_fail": "Upload failed. Please check the file and try again.",
-    
     "sign_signin_signinWithApple": "Login with Apple",
     "sign_signin_signinWithGoogle": "Login with Google",
     "sign_signin_signinWithFacebook": "Login with Facebook",
-    
+    "settings": "Settings",
+    "settings_system_theme": "System theme",
+    "settings_light_theme": "Light theme",
+    "settings_dark_theme": "Dark theme",
     "last_line": ""
 }

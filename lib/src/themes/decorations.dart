@@ -1,3 +1,4 @@
+import 'package:dominic_flutter_template/src/themes/colors.dart';
 import 'package:flutter/material.dart';
 
 class AppDecorations {
@@ -7,7 +8,7 @@ class AppDecorations {
     BoxShadow(
       offset: const Offset(2, 2),
       blurRadius: 2,
-      color: Colors.black.withOpacity(.1),
+      color: AppColors.black.withOpacity(.1),
     ),
   ];
 
