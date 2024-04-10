@@ -14,7 +14,9 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   # HELPER
+  equatable: ^2.0.5
   intl: 0.18.1
+  shared_preferences: ^2.2.2
   # STATE MANAGEMENT
   flutter_bloc: ^8.1.5
   get_it: ^7.4.8
