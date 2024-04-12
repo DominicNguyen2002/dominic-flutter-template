@@ -6,12 +6,12 @@ class _keys {
   static const String theme = 'app-theme';
 }
 
-class UserPrefs {
-  factory UserPrefs() => instance;
-  UserPrefs._internal();
+class SharedPrefs {
+  factory SharedPrefs() => instance;
+  SharedPrefs._internal();
 
-  static final UserPrefs instance = UserPrefs._internal();
-  static UserPrefs get I => instance;
+  static final SharedPrefs instance = SharedPrefs._internal();
+  static SharedPrefs get I => instance;
   late SharedPreferences _prefs;
   Future initialize() async {
     _prefs = await SharedPreferences.getInstance();

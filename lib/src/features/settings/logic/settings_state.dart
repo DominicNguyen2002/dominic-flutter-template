@@ -8,7 +8,7 @@ class SettingsState extends Equatable {
   });
 
   factory SettingsState.ds() =>
-      SettingsState(themeMode: UserPrefs.instance.getTheme());
+      SettingsState(themeMode: SharedPrefs.instance.getTheme());
 
   @override
   List<Object?> get props => [themeMode];
