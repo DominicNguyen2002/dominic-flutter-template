@@ -4,17 +4,17 @@ class AppColors {
   AppColors._();
 
   // primary
-  static const primary = Color(0xfff4ca27);
+  static const primary = Color(0xfffbdcc4);
   static const textLight = Color(0xff404040);
   static const textDark = Color.fromARGB(255, 255, 255, 255);
   static const scaffoldBackgroundColorLight = Color(0xfff8f6ee);
   static const scaffoldBackgroundColorDark = Color(0xff282a36);
-  
+
   // custom
   static const transparent = Colors.transparent;
   static const black = Colors.black;
   static const white = Colors.white;
-  
+
   // slate
   static const slate_50 = Color(0xfff8fafc);
   static const slate_100 = Color(0xfff1f5f9);

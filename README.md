@@ -55,6 +55,12 @@ Base project made with much: Contains Bloc, Route, and much more!
     flutter run --flavor production --target lib/main_production.dart
     ```
 
+6. To launcher icons
+
+   ```bash
+    dart run flutter_launcher_icons -f flutter_launcher_icons.yaml
+   ```
+
 ## Use this template to create your project
 
 1. Download or clone this repo by using the link below:
