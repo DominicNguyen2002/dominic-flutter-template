@@ -20,6 +20,7 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
   device_info_plus: ^10.1.0
   package_info_plus: ^7.0.0
+  logger: ^2.2.0
   # STATE MANAGEMENT
   flutter_bloc: ^8.1.5
   get_it: ^7.4.8
