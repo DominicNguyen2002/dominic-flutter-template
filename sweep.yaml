@@ -7,7 +7,7 @@ rules:
   - "All docstrings and comments should be up to date."
   - "When a public API in a module changes, ensure that all modules that depend on the changed module are updated accordingly."
 
-branch: 'main'
+branch: ['main', 'develop']
 
 gha_enabled: True
 
@@ -16,12 +16,3 @@ description: 'Automate the boring stuffs like archiving, fixity checking, etc.'
 draft: False
 
 blocked_dirs: []
-
-docs:
-  - PyAirtable: https://pyairtable.readthedocs.io/en/stable/
-
-sandbox:
-  install:
-    - 
-  check:
-    - ''
