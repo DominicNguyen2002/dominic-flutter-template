@@ -1,5 +1,6 @@
 import 'package:dominic_flutter_template/src/configs/devices/app_info.dart';
 import 'package:dominic_flutter_template/src/logger/logger.dart';
+import 'package:dominic_flutter_template/src/network/domain_manager.dart';
 import 'package:dominic_flutter_template/src/router/router.dart';
 import 'package:dominic_flutter_template/src/services/shared_prefs.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -29,4 +30,5 @@ Future initializeApp({
 
 void _locator() {
   GetIt.I.registerLazySingleton(() => AppRouter());
+  GetIt.I.registerLazySingleton(() => DomainManager());
 }

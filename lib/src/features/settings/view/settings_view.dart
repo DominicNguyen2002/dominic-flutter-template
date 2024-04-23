@@ -1,6 +1,5 @@
 import 'package:dominic_flutter_template/src/features/settings/logic/settings_bloc.dart';
 import 'package:dominic_flutter_template/src/localization/localization_utils.dart';
-import 'package:dominic_flutter_template/src/logger/logger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -9,7 +8,6 @@ class SettingsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    XLogger.buildingPage(namePage: S.text.settings);
     return BlocBuilder<SettingsBloc, SettingsState>(
       builder: (BuildContext context, state) {
         return Scaffold(
