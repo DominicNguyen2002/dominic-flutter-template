@@ -1,12 +1,15 @@
 import 'package:dominic_flutter_template/src/features/account/view/account_view.dart';
 import 'package:dominic_flutter_template/src/features/authentication/view/forgot_view.dart';
 import 'package:dominic_flutter_template/src/features/authentication/view/sign_in_view.dart';
+import 'package:dominic_flutter_template/src/features/authentication/view/sign_up_view.dart';
 import 'package:dominic_flutter_template/src/features/common/view/page_not_found_view.dart';
 import 'package:dominic_flutter_template/src/features/dash_board/view/dash_board_view.dart';
 import 'package:dominic_flutter_template/src/features/home/view/home_view.dart';
 import 'package:dominic_flutter_template/src/features/product/view/product_view.dart';
 import 'package:dominic_flutter_template/src/features/product_detail/view/product_details_view.dart';
 import 'package:dominic_flutter_template/src/features/profile/view/profile_view.dart';
+import 'package:dominic_flutter_template/src/localization/localization_utils.dart';
+import 'package:dominic_flutter_template/src/logger/logger.dart';
 import 'package:dominic_flutter_template/src/router/coordinator.dart';
 import 'package:dominic_flutter_template/src/router/router_name.dart';
 import 'package:dominic_flutter_template/src/features/settings/view/settings_view.dart';
@@ -29,7 +32,7 @@ class AppRouter {
         parentNavigatorKey: AppCoordinator.navigatorKey,
         path: AppRouteNames.signUp.path,
         name: AppRouteNames.signUp.name,
-        builder: (_, __) => const SignInView(),
+        builder: (_, __) => const SignUpView(),
       ),
       GoRoute(
         parentNavigatorKey: AppCoordinator.navigatorKey,
@@ -41,7 +44,10 @@ class AppRouter {
         parentNavigatorKey: AppCoordinator.navigatorKey,
         path: AppRouteNames.settings.path,
         name: AppRouteNames.settings.name,
-        builder: (_, __) => const SettingsView(),
+        builder: (_, __) {
+          XLogger.buildingPage(namePage: S.text.settings);
+          return const SettingsView();
+        },
       ),
       ShellRoute(
         navigatorKey: AppCoordinator.shellKey,

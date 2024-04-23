@@ -21,30 +21,30 @@ class XLogger {
 
   static buildingPage({required String namePage}) {
     _logger.d(
-      'Building space: $namePage',
+      'Building page: $namePage',
       error: 'Debug',
     );
   }
 
   static warning({
-    required String warning,
-    String title = 'Warning',
-    String type = 'Warning',
+    String? warning,
+    String? title,
+    String? type,
   }) {
     _logger.w(
-      '$type: $warning.',
-      error: title,
+      '${type ?? 'Warning'}: $warning.',
+      error: title ?? 'Warning',
     );
   }
 
   static error({
-    required String error,
-    String title = 'Error',
-    String type = 'Error',
+    String? error,
+    String? title,
+    String? type,
   }) {
     _logger.e(
-      '$type: $error.',
-      error: title,
+      '${type ?? 'Error'}: $error.',
+      error: title ?? 'Error',
     );
   }
 }
