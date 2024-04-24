@@ -46,7 +46,7 @@ class XImageNetwork extends StatelessWidget {
 
   Widget _buildImageNotAvailable() {
     return _buildImageContainer(
-      child: const Icon(AppIcons.imageNotAvilable),
+      child: const Icon(AppIcons.imageNotAvailable),
     );
   }
 
