@@ -15,6 +15,17 @@ class $AssetsImagesGen {
   $AssetsImagesLocaleGen get locale => const $AssetsImagesLocaleGen();
 }
 
+class $AssetsLottiesGen {
+  const $AssetsLottiesGen();
+
+  /// File path: assets/lotties/loading-image-animation.json
+  String get loadingImageAnimation =>
+      'assets/lotties/loading-image-animation.json';
+
+  /// List of all assets
+  List<String> get values => [loadingImageAnimation];
+}
+
 class $AssetsImagesLocaleGen {
   const $AssetsImagesLocaleGen();
 
@@ -32,6 +43,7 @@ class Assets {
   Assets._();
 
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsLottiesGen lotties = $AssetsLottiesGen();
 }
 
 class AssetGenImage {
