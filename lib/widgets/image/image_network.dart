@@ -1,9 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:dominic_flutter_template/gen/assets.gen.dart';
 import 'package:dominic_flutter_template/src/themes/colors.dart';
 import 'package:dominic_flutter_template/src/themes/icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_blurhash/flutter_blurhash.dart';
+import 'package:lottie/lottie.dart';
 
 class XImageNetwork extends StatelessWidget {
   const XImageNetwork({
@@ -29,7 +30,7 @@ class XImageNetwork extends StatelessWidget {
       fit: fit,
       width: width,
       height: height,
-      placeholder: (context, url) => _buildImageContainer(),
+      placeholder: (context, url) => _buildPlaceholder(),
       errorWidget: (context, url, error) => _buildErrorImage(),
     );
   }
@@ -55,11 +56,9 @@ class XImageNetwork extends StatelessWidget {
     );
   }
 
-  // TODO: create blurhash to load image online
-  Widget _blurHash() {
-    return const AspectRatio(
-      aspectRatio: 1.6,
-      child: BlurHash(hash: 'LEHV6nWB2yk8pyo0adR*.7kCMdnj'),
+  Widget _buildPlaceholder() {
+    return _buildImageContainer(
+      child: Lottie.asset(Assets.lotties.loadingImageAnimation),
     );
   }
 }
