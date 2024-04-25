@@ -49,9 +49,12 @@ dependencies:
   flutter_facebook_auth: ^6.2.0
 
 dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^3.0.0
   build_runner: ^2.4.8
   flutter_gen_runner: ^5.4.0
