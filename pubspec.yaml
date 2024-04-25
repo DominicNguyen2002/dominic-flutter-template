@@ -21,6 +21,9 @@ dependencies:
   device_info_plus: ^10.1.0
   package_info_plus: ^7.0.0
   logger: ^2.2.0
+  responsive_builder: ^0.7.0
+  flutter_screenutil: ^5.9.0
+  device_preview: ^1.1.0
   # STATE MANAGEMENT
   flutter_bloc: ^8.1.5
   get_it: ^7.4.8

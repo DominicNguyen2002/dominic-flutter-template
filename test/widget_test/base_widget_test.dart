@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class XWidgetTest extends StatelessWidget {
-  const XWidgetTest({
+class BaseWidgetTest extends StatelessWidget {
+  const BaseWidgetTest({
     super.key,
     required this.child,
   });
