@@ -1,4 +1,5 @@
 class Utils {
+  Utils._();
   bool isNullOrEmpty(Object? object) {
     if (object == null) {
       return true;

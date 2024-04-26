@@ -11,7 +11,7 @@ void xImageNetworkTest() {
     'XImageNetwork widget test with online image url',
     (WidgetTester tester) async {
       await tester.pumpWidget(
-        const XWidgetTest(
+        const BaseWidgetTest(
           child: XImageNetwork(
             url:
                 'https://cdn4.vectorstock.com/i/1000x1000/31/03/top-view-from-above-vector-22983103.jpg',
@@ -41,7 +41,7 @@ void xImageNetworkTest() {
     'XImageNetwork widget test with error image',
     (tester) async {
       await tester.pumpWidget(
-        const XWidgetTest(
+        const BaseWidgetTest(
           child: XImageNetwork(
             url: null,
             fit: BoxFit.cover,

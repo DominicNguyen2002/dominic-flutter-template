@@ -1,8 +1,8 @@
-import 'package:dominic_flutter_template/src/utils/date_utils.dart';
+import 'package:dominic_flutter_template/src/utils/date_time_utils.dart';
 import 'package:flutter/material.dart';
 
-extension DateUtilsExtensions on DateTime {
-  int get daysInMonth => DateHelper.daysPerMonth(year)[month - 1];
+extension DateTimeExtensions on DateTime {
+  int get daysInMonth => DateTimeUtils.daysPerMonth(year)[month - 1];
 
   DateTime get nextDay => DateTime(year, month, day + 1);
 

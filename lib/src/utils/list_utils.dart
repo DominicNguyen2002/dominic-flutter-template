@@ -1,4 +1,5 @@
 class ListUtils {
+  ListUtils._();
   static List<T> toggleListElement<T>(List<T> list, T value) {
     final List<T> newList = List.from(list);
     if (newList.contains(value)) {

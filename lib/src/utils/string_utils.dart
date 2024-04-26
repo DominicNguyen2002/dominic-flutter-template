@@ -1,12 +1,13 @@
 class StringUtils {
+  StringUtils._();
   static bool isEqual(String? val1, String? val2) {
     return val1?.trim().toLowerCase() == val2?.trim().toLowerCase();
   }
 
-    static bool isMatchSearch(String name, String query) {
+  static bool isMatchSearch(String name, String query) {
     final name0 = name.toLowerCase();
     final query0 = query.toLowerCase();
-    return name0.contains(query0) || name0.contains(query0);
+    return name0.contains(query0);
   }
 
   static bool isMatchAllSearch(List<String> names, String query) {
@@ -17,5 +18,4 @@ class StringUtils {
     }
     return false;
   }
-  
 }
