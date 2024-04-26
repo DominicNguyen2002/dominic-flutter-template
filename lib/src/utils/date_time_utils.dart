@@ -1,7 +1,8 @@
 import 'package:intl/intl.dart';
 import '../extensions/date_time.ext.dart';
 
-class DateHelper {
+class DateTimeUtils {
+  DateTimeUtils._();
   static DateTime now = DateTime.now();
 
   static DateTime getEndDateOfMonth() {
@@ -126,6 +127,7 @@ class DateHelper {
   static bool _isLeapYear(int year) {
     return (year & 3) == 0 && ((year % 25) != 0 || (year & 15) == 0);
   }
+
   static int getNoOfSpaceRequiredBeforeFirstValidDate(
     List<int> weekdaysToHide,
     int weekdayValueForFirstValidDay, [
