@@ -31,6 +31,7 @@ dependencies:
   cached_network_image: ^3.3.1
   photo_view: ^0.15.0
   lottie: ^3.1.0
+  shimmer: ^3.0.0
   # FIREBASE
   firebase_core: ^2.30.0
   firebase_analytics: ^10.10.2

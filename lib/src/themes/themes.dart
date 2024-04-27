@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'colors.dart';
 
-class AppTheme {
-  AppTheme._();
+class AppThemes {
+  AppThemes._();
 
   static const String fontFamily = FontFamily.openSans;
   static ThemeData theme = Theme.of(AppCoordinator.context);
@@ -37,6 +37,7 @@ class AppTheme {
         /// ColorScheme
         colorScheme: const ColorScheme.light(
           primary: AppColors.primary,
+          onBackground: AppColors.gray_600
         ),
 
         // Appbar
@@ -93,6 +94,7 @@ class AppTheme {
         /// ColorScheme
         colorScheme: const ColorScheme.dark(
           primary: AppColors.primary,
+          onBackground: AppColors.gray_200
         ),
 
         // Appbar

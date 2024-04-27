@@ -31,8 +31,8 @@ class MyApp extends StatelessWidget {
             onGenerateTitle: (BuildContext context) =>
                 S.of(context).common_appTitle,
             builder: BotToastInit(),
-            theme: AppTheme.light(),
-            darkTheme: AppTheme.dark(),
+            theme: AppThemes.light(),
+            darkTheme: AppThemes.dark(),
             themeMode: state.themeMode,
             routerConfig: appRouter.router,
           );
