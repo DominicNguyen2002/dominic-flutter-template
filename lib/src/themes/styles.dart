@@ -7,28 +7,28 @@ class AppStyles {
   static final title = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w700,
-    color: AppTheme.textColor,
+    color: AppThemes.textColor,
   );
   static final titleLarge = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w700,
-    color: AppTheme.textColor,
+    color: AppThemes.textColor,
   );
   static final titleSmall = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w700,
-    color: AppTheme.textColor,
+    color: AppThemes.textColor,
   );
 
   static final body = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.normal,
-    color: AppTheme.textColor,
+    color: AppThemes.textColor,
   );
 
   static final inputStyle = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.normal,
-    color: AppTheme.textColor,
+    color: AppThemes.textColor,
   );
 }
