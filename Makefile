@@ -9,6 +9,6 @@ format:
 lint:
 	dart analyze
 runner: 
-	flutter packages pub run build_runner build
-pop:
+	dart run build_runner build
+pod:
 	pod install --project-directory=ios
