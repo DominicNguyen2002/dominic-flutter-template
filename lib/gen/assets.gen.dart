@@ -22,8 +22,20 @@ class $AssetsLottiesGen {
   String get loadingImageAnimation =>
       'assets/lotties/loading-image-animation.json';
 
+  /// File path: assets/lotties/page-not-found-dark-animation.json
+  String get pageNotFoundDarkAnimation =>
+      'assets/lotties/page-not-found-dark-animation.json';
+
+  /// File path: assets/lotties/page-not-found-light-animation.json
+  String get pageNotFoundLightAnimation =>
+      'assets/lotties/page-not-found-light-animation.json';
+
   /// List of all assets
-  List<String> get values => [loadingImageAnimation];
+  List<String> get values => [
+        loadingImageAnimation,
+        pageNotFoundDarkAnimation,
+        pageNotFoundLightAnimation
+      ];
 }
 
 class $AssetsImagesLocaleGen {
