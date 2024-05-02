@@ -1,5 +1,5 @@
 {
-    "@@locale": "en",
+    "@@locale": "vi",
     "common_appTitle": "My App",
     "common_appVersion": "Version {value}",
     "@common_appVersion": {
@@ -39,13 +39,13 @@
     "sign_signin_signinWithApple": "Login with Apple",
     "sign_signin_signinWithGoogle": "Login with Google",
     "sign_signin_signinWithFacebook": "Login with Facebook",
-    "settings": "Settings",
+    "settings": "Cài đặt",
     "settings_system_theme": "System theme",
     "settings_light_theme": "Light theme",
     "settings_dark_theme": "Dark theme",
     "settings_enable_safe_area": "Enable SafeArea",
     "settings_unable_safe_area": "Disable SafeArea",
-    "settings_locale_en": "English",
-    "settings_locale_vi": "Vietnamese",
+    "settings_locale_en": "Tiếng Anh",
+    "settings_locale_vi": "Tiếng Việt",
     "last_line": ""
 }
