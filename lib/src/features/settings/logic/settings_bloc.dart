@@ -14,4 +14,18 @@ class SettingsBloc extends Cubit<SettingsState> {
       SharedPrefs.instance.setTheme(mode);
     }
   }
+
+  void onChangeSafeArea(bool? safeArea) {
+    if (safeArea != null) {
+      emit(state.copyWith(safeArea: safeArea));
+      SharedPrefs.instance.setSafeArea(safeArea);
+    }
+  }
+
+  void onChangeLocale(Locale? locale) {
+    if (locale != null) {
+      emit(state.copyWith(locale: locale));
+      SharedPrefs.instance.setLocale(locale);
+    }
+  }
 }
