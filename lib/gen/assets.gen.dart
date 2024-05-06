@@ -18,6 +18,9 @@ class $AssetsImagesGen {
 class $AssetsLottiesGen {
   const $AssetsLottiesGen();
 
+  /// File path: assets/lotties/checking-animation.json
+  String get checkingAnimation => 'assets/lotties/checking-animation.json';
+
   /// File path: assets/lotties/loading-image-animation.json
   String get loadingImageAnimation =>
       'assets/lotties/loading-image-animation.json';
@@ -32,6 +35,7 @@ class $AssetsLottiesGen {
 
   /// List of all assets
   List<String> get values => [
+        checkingAnimation,
         loadingImageAnimation,
         pageNotFoundDarkAnimation,
         pageNotFoundLightAnimation

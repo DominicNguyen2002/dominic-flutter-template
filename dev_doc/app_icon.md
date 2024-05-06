@@ -1,4 +1,4 @@
-# App icon
+# App Icon
 
 ## Generate your app icon
 

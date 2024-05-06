@@ -1,4 +1,4 @@
-# Docs
+# Better Comment & Commit
 
 ## Better Commit Messages
 

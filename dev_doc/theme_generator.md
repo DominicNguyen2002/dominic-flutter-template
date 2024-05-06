@@ -1,4 +1,4 @@
-# Generator
+# Theme Generator
 
 ## Tailwind CSS Color Generator
 
