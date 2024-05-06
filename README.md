@@ -83,16 +83,18 @@ Base project made with much: Contains Bloc, Route, and much more!
 - Replace/Update your firebase config as your project.
   - Android staging: `android/app/src/staging/google-services.json`
   - Android production: `android/app/src/production/google-services.json`
-  - iOS staging: `ios/config/GoogleService-Info.plist`
-  - iOS production: `ios/config/GoogleService-Info.plist`
-  - Update `firebase_options_prod.dart`
-  - Update `firebase_options_stg.dart`
+  - Android develop: `android/app/src/develop/google-services.json`
+  - iOS staging: `ios/config/staging/GoogleService-Info.plist`
+  - iOS production: `ios/config/production/GoogleService-Info.plist`
+  - iOS develop: `ios/config/develop/GoogleService-Info.plist`
+  - Update `firebase_options_production.dart`
+  - Update `firebase_options_staging.dart`
   - Update `REVERSED_CLIENT_ID` on file info.plist
 
-4. Update Firebase config - by run command
+1. Update Firebase configure - by run command
 
     ```bash
-    flutterfire config \
+    flutterfire configure \
       --project={YOUR_FIREBASE_ID_PROJECT} \
       --out={part to save firebase_options.dart} \
       --ios-bundle-id={BUNDLE_ID_APP} \

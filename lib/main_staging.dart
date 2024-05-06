@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:dominic_flutter_template/firebase_options/firebase_options.dart';
+import 'package:dominic_flutter_template/firebase_options/firebase_options_staging.dart';
 import 'package:dominic_flutter_template/src/locator.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
