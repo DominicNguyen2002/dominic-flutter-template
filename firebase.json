@@ -3,18 +3,41 @@
         "platforms": {
             "android": {
                 "default": {
-                    "projectId": "flutter-template-f3a46",
-                    "appId": "1:723532745982:android:4143139bc683354606e9af",
-                    "fileOutput": "android/app/google-services.json"
+                    "projectId": "flutter-template-develop-75758",
+                    "appId": "1:35415686723:android:34136945d319c71ff25ef6",
+                    "fileOutput": "android/app/develop/google-services.json"
+                }
+            },
+            "ios":{
+                "default": {
+                    "projectId": "flutter-template-develop-75758",
+                    "appId": "1:35415686723:ios:9e050d16721f4399f25ef6",
+                    "fileOutput": "ios/config/develop/GoogleService-Info.plist"
                 }
             },
             "dart": {
-                "lib/firebase_options.dart": {
-                    "projectId": "flutter-template-f3a46",
+                "lib/firebase_options/firebase_options_staging.dart": {
+                    "projectId": "flutter-template-staging-fe8aa",
                     "configurations": {
-                        "android": "1:723532745982:android:4143139bc683354606e9af",
-                        "ios": "1:723532745982:ios:36f9081fce7db6f806e9af",
-                        "web": "1:723532745982:web:cc8a34b2f637faea06e9af"
+                        "android": "1:1046231049930:android:b2177bc938be2826ff7633",
+                        "ios": "1:1046231049930:ios:d7c062485ef10b65ff7633",
+                        "web": "1:1046231049930:web:701ccbb289c8d4c2ff7633"
+                    }
+                },
+                "lib/firebase_options/firebase_options_develop.dart": {
+                    "projectId": "flutter-template-develop-75758",
+                    "configurations": {
+                        "android": "1:35415686723:android:34136945d319c71ff25ef6",
+                        "ios": "1:35415686723:ios:9e050d16721f4399f25ef6",
+                        "web": "1:35415686723:web:7a7ac57dfdebc480f25ef6"
+                    }
+                },
+                "lib/firebase_options/firebase_options_production.dart": {
+                    "projectId": "flutter-template-product-ea11d",
+                    "configurations": {
+                        "android": "1:675253405411:android:1859a9ae2b88c78cebe7d6",
+                        "ios": "1:675253405411:ios:1935a8f59738c6f9ebe7d6",
+                        "web": "1:675253405411:web:0c29d472e304ca4febe7d6"
                     }
                 }
             }

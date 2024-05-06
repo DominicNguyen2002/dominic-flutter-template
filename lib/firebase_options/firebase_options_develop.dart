@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart'
 ///
 /// Example:
 /// ```dart
-/// import 'firebase_options.dart';
+/// import 'firebase_options_develop.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAaEZwNB6-VGuvuGCjC1mNL58dIvhmjy2A',
-    appId: '1:723532745982:web:cc8a34b2f637faea06e9af',
-    messagingSenderId: '723532745982',
-    projectId: 'flutter-template-f3a46',
-    authDomain: 'flutter-template-f3a46.firebaseapp.com',
-    storageBucket: 'flutter-template-f3a46.appspot.com',
-    measurementId: 'G-8MZVH2CP5M',
+    apiKey: 'AIzaSyBWy4MExiUVsXpFGdHhYH6K_8aDA5Pew7E',
+    appId: '1:35415686723:web:7a7ac57dfdebc480f25ef6',
+    messagingSenderId: '35415686723',
+    projectId: 'flutter-template-develop-75758',
+    authDomain: 'flutter-template-develop-75758.firebaseapp.com',
+    storageBucket: 'flutter-template-develop-75758.appspot.com',
+    measurementId: 'G-K01M9MK4SP',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBTmw_L5lFtJ3nclNlFoghKjHAJ-8D7hhw',
-    appId: '1:723532745982:android:4143139bc683354606e9af',
-    messagingSenderId: '723532745982',
-    projectId: 'flutter-template-f3a46',
-    storageBucket: 'flutter-template-f3a46.appspot.com',
+    apiKey: 'AIzaSyCX33mvS2GFG2Z6og8RxjwoXY-QTo7rW_8',
+    appId: '1:35415686723:android:34136945d319c71ff25ef6',
+    messagingSenderId: '35415686723',
+    projectId: 'flutter-template-develop-75758',
+    storageBucket: 'flutter-template-develop-75758.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAaorD4jUZYHhoRalZZNqecoYL4O3gAwHU',
-    appId: '1:723532745982:ios:36f9081fce7db6f806e9af',
-    messagingSenderId: '723532745982',
-    projectId: 'flutter-template-f3a46',
-    storageBucket: 'flutter-template-f3a46.appspot.com',
-    iosBundleId: 'com.example.dominicFlutterTemplate',
+    apiKey: 'AIzaSyBgKmbUel8cGSHHa3eTPKBxHqH1FtbYk00',
+    appId: '1:35415686723:ios:9e050d16721f4399f25ef6',
+    messagingSenderId: '35415686723',
+    projectId: 'flutter-template-develop-75758',
+    storageBucket: 'flutter-template-develop-75758.appspot.com',
+    iosBundleId: 'com.example.dominicFlutterTemplate.dev',
   );
 }
