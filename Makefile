@@ -12,3 +12,9 @@ runner:
 	dart run build_runner build
 pod:
 	pod install --project-directory=ios
+production:
+	flutter run --flavor production --target lib/main_production.dart
+develop:
+	flutter run --flavor develop --target lib/main_develop.dart
+staging:
+	flutter run --flavor staging --target lib/main_staging.dart

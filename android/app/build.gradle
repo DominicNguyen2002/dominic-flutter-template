@@ -67,7 +67,7 @@ android {
             applicationIdSuffix ".stg"
             manifestPlaceholders = [appName: "My App[STG]"]
         }        
-        development {
+        develop {
             dimension "flavor"
             applicationIdSuffix ".dev"
             manifestPlaceholders = [appName: "My App[DEV]"]
