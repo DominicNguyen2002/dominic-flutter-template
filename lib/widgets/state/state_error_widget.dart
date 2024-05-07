@@ -31,13 +31,12 @@ class XStateErrorWidget extends StatelessWidget {
         /**
          * TODO: add button tap to refresh
         Center(
-          child: XOutlinedButton(
+          child: OutlinedButton(
             title: S.text.common_tap_to_refresh,
             onPressed: onTap,
           ),
         ),
         */
-        
       ],
     );
   }
