@@ -4,10 +4,16 @@ class AppColors {
   AppColors._();
 
   // primary
-  static const primary = Color(0xfffbdcc4);
+  static const primary = Color(0xff00a181);
+  static const secondary = Color(0xff004651);
+  static const link = Color(0xffa4e473);
+
+  // light
   static const textLight = Color(0xff404040);
-  static const textDark = Color.fromARGB(255, 255, 255, 255);
   static const scaffoldBackgroundColorLight = Color(0xfff8f6ee);
+
+  // dark
+  static const textDark = Color.fromARGB(255, 255, 255, 255);
   static const scaffoldBackgroundColorDark = Color(0xff282a36);
 
   // custom

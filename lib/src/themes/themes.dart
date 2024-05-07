@@ -1,5 +1,4 @@
 import 'package:dominic_flutter_template/gen/fonts.gen.dart';
-import 'package:dominic_flutter_template/src/router/coordinator.dart';
 import 'package:flutter/material.dart';
 
 import 'colors.dart';
@@ -8,9 +7,6 @@ class AppThemes {
   AppThemes._();
 
   static const String fontFamily = FontFamily.openSans;
-  static ThemeData theme = Theme.of(AppCoordinator.context);
-  static Color textColor =
-      theme.textTheme.titleLarge?.color ?? AppColors.textLight;
 
   static ThemeData light() => ThemeData(
         fontFamily: fontFamily,
@@ -37,6 +33,7 @@ class AppThemes {
         /// ColorScheme
         colorScheme: const ColorScheme.light(
           primary: AppColors.primary,
+          secondary: AppColors.secondary,
           onBackground: AppColors.gray_600
         ),
 
@@ -94,6 +91,7 @@ class AppThemes {
         /// ColorScheme
         colorScheme: const ColorScheme.dark(
           primary: AppColors.primary,
+          secondary: AppColors.secondary,
           onBackground: AppColors.gray_200
         ),
 
