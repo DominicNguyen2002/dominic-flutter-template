@@ -42,6 +42,43 @@ class $AssetsLottiesGen {
       ];
 }
 
+class $AssetsSvgsGen {
+  const $AssetsSvgsGen();
+
+  /// File path: assets/svgs/icon_apple.svg
+  String get iconApple => 'assets/svgs/icon_apple.svg';
+
+  /// File path: assets/svgs/icon_facebook.svg
+  String get iconFacebook => 'assets/svgs/icon_facebook.svg';
+
+  /// File path: assets/svgs/icon_google.svg
+  String get iconGoogle => 'assets/svgs/icon_google.svg';
+
+  /// File path: assets/svgs/state_empty.svg
+  String get stateEmpty => 'assets/svgs/state_empty.svg';
+
+  /// File path: assets/svgs/state_empty_map.svg
+  String get stateEmptyMap => 'assets/svgs/state_empty_map.svg';
+
+  /// File path: assets/svgs/state_empty_notification.svg
+  String get stateEmptyNotification =>
+      'assets/svgs/state_empty_notification.svg';
+
+  /// File path: assets/svgs/state_error.svg
+  String get stateError => 'assets/svgs/state_error.svg';
+
+  /// List of all assets
+  List<String> get values => [
+        iconApple,
+        iconFacebook,
+        iconGoogle,
+        stateEmpty,
+        stateEmptyMap,
+        stateEmptyNotification,
+        stateError
+      ];
+}
+
 class $AssetsImagesLocaleGen {
   const $AssetsImagesLocaleGen();
 
@@ -60,6 +97,7 @@ class Assets {
 
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLottiesGen lotties = $AssetsLottiesGen();
+  static const $AssetsSvgsGen svgs = $AssetsSvgsGen();
 }
 
 class AssetGenImage {

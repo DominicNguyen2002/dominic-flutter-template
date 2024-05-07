@@ -2,13 +2,13 @@
 
 ## Better Commit Messages
 
-![Better commit](./resources/images/better-commit.jpeg)
+![Better commit](/resources/images/better-commit.jpeg)
 
 More: [Better Git Commits](#better-git-commits)
 
 ## Better Comment
 
-![Better comment](./resources/images/better-comments.png)
+![Better comment](/resources/images/better-comments.png)
 
 ## Better Git Commits
 
