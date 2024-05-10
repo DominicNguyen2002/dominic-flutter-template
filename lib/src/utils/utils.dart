@@ -1,20 +1,5 @@
 class Utils {
   Utils._();
-  bool isNullOrEmpty(Object? object) {
-    if (object == null) {
-      return true;
-    }
-    if (object is String) {
-      return object.trim().isEmpty;
-    }
-    if (object is Iterable) {
-      return object.isEmpty;
-    }
-    if (object is Map) {
-      return object.isEmpty;
-    }
-    return false;
-  }
 
   List<T> listOf<T>(dynamic map, T Function(dynamic e) toElement) {
     if (map != null && map is List) {
@@ -36,4 +21,20 @@ class Utils {
     }
     return '$first$separated$last';
   }
+}
+
+bool isNullOrEmpty(Object? object) {
+  if (object == null) {
+    return true;
+  }
+  if (object is String) {
+    return object.trim().isEmpty;
+  }
+  if (object is Iterable) {
+    return object.isEmpty;
+  }
+  if (object is Map) {
+    return object.isEmpty;
+  }
+  return false;
 }

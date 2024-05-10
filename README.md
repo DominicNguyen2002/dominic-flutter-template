@@ -115,7 +115,7 @@ Base project made with much: Contains Bloc, Route, and much more!
 - Must know
   - Model name start with `M`: MUser, MProduct, MGroup...
   - Common widget start with `X`: XButton, XText, XAppbar... - There widget under folder `lib/widgets/`
-  - App Constants class or service start with `Add`: AppStyles, AppColor, AppRouter, AppCoordinator,.. and SharedPrefs
+  - App Constants class or service start with `App`: AppStyles, AppColors, AppRouter, AppCoordinator,.. and SharedPrefs
 
 # Dependencies
 
