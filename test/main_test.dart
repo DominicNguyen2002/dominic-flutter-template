@@ -1,5 +1,5 @@
-import 'widget_test/image_network_test.dart';
+import 'unit_test/password_model_test.dart';
 
 void main() {
-  xImageNetworkTest();
+ passwordModelTest();
 }

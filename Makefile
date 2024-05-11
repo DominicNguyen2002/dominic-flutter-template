@@ -18,3 +18,5 @@ develop:
 	flutter run --flavor develop --target lib/main.dart
 staging:
 	flutter run --flavor staging --target lib/main_staging.dart
+run test:
+	flutter test test/main_test.dart

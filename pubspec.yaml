@@ -23,6 +23,8 @@ dependencies:
   logger: ^2.2.0
   device_preview: ^1.1.0
   permission_handler: ^11.3.1
+  uuid: ^4.4.0
+  crypto: ^3.0.3
   # STATE MANAGEMENT
   flutter_bloc: ^8.1.5
   get_it: ^7.4.8
@@ -52,6 +54,8 @@ dependencies:
   sign_in_with_apple: ^6.1.0
   uni_links: ^0.5.1
   flutter_facebook_auth: ^6.2.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
 
 dev_dependencies:
   integration_test:
@@ -61,8 +65,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-  build_runner: ^2.4.8
+  build_runner: ^2.4.9
   flutter_gen_runner: ^5.4.0
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
 
 
 flutter:

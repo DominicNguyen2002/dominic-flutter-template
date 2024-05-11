@@ -9,7 +9,7 @@ import 'package:dominic_flutter_template/src/features/product/view/product_view.
 import 'package:dominic_flutter_template/src/features/product_detail/view/product_details_view.dart';
 import 'package:dominic_flutter_template/src/features/profile/view/profile_view.dart';
 import 'package:dominic_flutter_template/src/localization/localization_utils.dart';
-import 'package:dominic_flutter_template/src/logger/logger.dart';
+import 'package:dominic_flutter_template/src/helpers/logger.dart';
 import 'package:dominic_flutter_template/src/router/coordinator.dart';
 import 'package:dominic_flutter_template/src/router/router_name.dart';
 import 'package:dominic_flutter_template/src/features/settings/view/settings_view.dart';
