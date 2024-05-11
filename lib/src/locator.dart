@@ -1,5 +1,5 @@
 import 'package:dominic_flutter_template/src/configs/devices/app_info.dart';
-import 'package:dominic_flutter_template/src/logger/logger.dart';
+import 'package:dominic_flutter_template/src/helpers/logger.dart';
 import 'package:dominic_flutter_template/src/network/domain_manager.dart';
 import 'package:dominic_flutter_template/src/router/router.dart';
 import 'package:dominic_flutter_template/src/services/shared_prefs.dart';
